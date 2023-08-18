@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: enem
+    database: dados-analise-dbt 
+    schema: enem
+    tables:
+      - name: itens_prova_2020
+      - name: itens_prova_2021
+      - name: itens_prova_2022
+      - name: microdados_enem_2020
+      - name: microdados_enem_2021
+      - name: microdados_enem_2022
+  
+

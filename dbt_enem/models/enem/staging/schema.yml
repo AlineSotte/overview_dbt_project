@@ -1,0 +1,32 @@
+
+version: 2
+
+models:
+  - name: stg_microdados_enem_2020
+    description: "Dados Enem 2020"
+    columns:
+      - name: numero_incricao
+        description: "Numero de inscricao do candidato"
+      - name: numero_ano
+        description: "Ano do Enem"
+      - name: tipo_faixa_etaria
+        description: "Tipo faixa etaria"
+      - name: tipo_sexo
+        description: "Tipo sexo do candidato"
+      - name: tipo_estado_civil
+        description: "Tipo estado civil do candidato"
+
+  - name: stg_microdados_enem_2021
+    description: "Dados Enem 2021"
+    columns:
+      - name: numero_incricao
+        description: "Numero de inscricao do candidato"
+      - name: numero_ano
+        description: "Ano do Enem"
+      - name: tipo_faixa_etaria
+        description: "Tipo faixa etaria"
+      - name: tipo_sexo
+        description: "Tipo sexo do candidato"
+      - name: tipo_estado_civil
+        description: "Tipo estado civil do candidato"
+      
